@@ -36,6 +36,35 @@
   text-decoration: none;
   color: #424242;
 }
-.banner-section{
+.banner-section {
   text-align: center;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 64px;
+  color: #131313;
+  padding-bottom: 10px;
+}
+.banner-info {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  padding-bottom: 20px;
+}
+.btn-primary {
+  background: #ff900e;
+  border-radius: 8px;
+  padding: 20px 25px;
+  border: none;
+  font-weight: 600;
+font-size: 20px;
+  color: #ffff;
+  margin-bottom: 40px;
+}
+.banner-image{
+  padding-bottom: 45px;
+}
+.banner-image img {
+  width: 1270px;
+  height: 680px;
 }
