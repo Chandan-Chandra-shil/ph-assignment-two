@@ -69,11 +69,13 @@
   width: 1270px;
   height: 680px;
 }
+/* section one styles */
 .section-one {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(2, 1fr);
   margin-left: 350px;
+  padding-bottom: 80px;
 }
 .team-title {
   font-weight: 700;
@@ -95,3 +97,19 @@
   color: #727272;
   padding-bottom: 20px;
 }
+/* section two styles */
+.section-two{
+  width: 100%;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+
+
+
+}
+.left{
+  padding-bottom: 50%;
+}
+.right{
+  padding-left: 50%;
+}
+
