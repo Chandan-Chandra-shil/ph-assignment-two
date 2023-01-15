@@ -6,6 +6,9 @@
   font-family: "Poppins", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
+/*------------------------- 
+header section styles start 
+---------------------------*/
 .container {
   background-color: rgba(255, 144, 14, 0.1);
   margin-bottom: 50px;
@@ -69,7 +72,13 @@
   width: 1270px;
   height: 680px;
 }
-/* section one styles */
+/*------------------------- 
+header section styles end 
+---------------------------*/
+
+/*----------------------- 
+section one styles start 
+------------------------- */
 .section-one {
   display: grid;
   align-items: center;
@@ -97,7 +106,90 @@
   color: #727272;
   padding-bottom: 20px;
 }
-/* section three styles */
+/*------------------------ 
+section one styles start  
+------------------------*/
+
+/*-----------------------
+ section two styles start
+ ------------------------  */
+.section-two {
+  margin: 0 350px;
+  margin-bottom: 60px;
+  display: flex;
+}
+
+.section-two-image {
+  margin-left: 60px;
+}
+.section-two-details-title {
+  border-left: 5px solid #ff900e;
+  font-size: 45px;
+  font-weight: 700;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+.section-two-details-info {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 60px;
+}
+.div-one {
+  background-color: rgba(237, 207, 156, 0.1);
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin-bottom: 60px;
+}
+.div-one-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+  padding-bottom: 10px;
+}
+.div-one-sub-title {
+  font-size: 16px;
+  font-weight: 400;
+  color: #727272;
+}
+
+/*---------------------- 
+section two styles end 
+------------------------*/
+
+/*------------------------------------- 
+experience button section styles start 
+--------------------------------------- */
+.experience{
+ text-align: center;
+ margin-top: -180px;
+ margin-bottom: 60px;
+  
+}
+.btn-experience{
+  background: #FF900E;
+  width: 300px;
+  height: 180px;
+  border: none;
+  border-radius: 8px;
+  color: #ffff;
+}
+.btn-title{
+  font-size: 65px;
+  font-weight: 700;
+}
+.btn-sub-title{
+  font-size: 25px;
+  font-weight: 500;
+}
+/*------------------------------------- 
+experience button section styles start 
+---------------------------------------- */
+
+/*---------------------------
+ section three styles start 
+ ---------------------------*/
 .section-three {
   margin: 0 350px;
 }
@@ -105,7 +197,6 @@
   display: flex;
   gap: 154px;
 }
-
 .section-three-title {
   font-size: 45px;
   font-weight: 700;
@@ -128,12 +219,9 @@
 .section-three-box:hover {
   width: 220px;
   height: 200px;
-  
   border-radius: 10px;
   background-color: rgba(255, 144, 14, 0.1);
-
 }
-
 .section-three-box-title {
   font-weight: 600;
   font-size: 40px;
