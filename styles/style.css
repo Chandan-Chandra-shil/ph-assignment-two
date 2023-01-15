@@ -161,25 +161,24 @@ section two styles end
 /*------------------------------------- 
 experience button section styles start 
 --------------------------------------- */
-.experience{
- text-align: center;
- margin-top: -180px;
- margin-bottom: 60px;
-  
+.experience {
+  text-align: center;
+  margin-top: -180px;
+  margin-bottom: 60px;
 }
-.btn-experience{
-  background: #FF900E;
+.btn-experience {
+  background: #ff900e;
   width: 300px;
   height: 180px;
   border: none;
   border-radius: 8px;
   color: #ffff;
 }
-.btn-title{
+.btn-title {
   font-size: 65px;
   font-weight: 700;
 }
-.btn-sub-title{
+.btn-sub-title {
   font-size: 25px;
   font-weight: 500;
 }
@@ -192,6 +191,7 @@ experience button section styles start
  ---------------------------*/
 .section-three {
   margin: 0 350px;
+  margin-bottom: 50px;
 }
 .boxs {
   display: flex;
@@ -236,4 +236,40 @@ experience button section styles start
   font-weight: 600;
   font-size: 20px;
   color: #727272;
+}
+/*---------------------
+  section four styles 
+ ---------------------*/
+.section-four-info {
+  text-align: center;
+}
+.section-four-title {
+  font-size: 45px;
+  font-weight: 700;
+  padding-bottom: 18px;
+}
+.section-four-sub-title {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  padding-bottom: 90px;
+}
+.our-sponsors {
+  padding-left: 50px;
+  margin: 0 350px;
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+/* footer styles */
+footer{
+  padding: 30px 200px;
+ margin: 0 350px;
+ background: #FFF4E7;
+ margin-bottom: 50px;
+}
+.footer-title{
+  font-size: 20px;
+  font-weight:400;
 }
