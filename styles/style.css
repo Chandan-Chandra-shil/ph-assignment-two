@@ -10,6 +10,7 @@
 header section styles start 
 ---------------------------*/
 .container {
+  max-width: 100%;
   background-color: rgba(255, 144, 14, 0.1);
   margin-bottom: 50px;
 }
@@ -262,15 +263,40 @@ experience button section styles start
   gap: 50px;
   margin-bottom: 50px;
 }
+/* section five styles */
+.portfolio {
+  text-align: center;
+  margin-bottom: 40px;
+
+}
+.portfolio-title {
+  font-size: 45px;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+.portfolio-images img:hover {
+  height: 40%;
+  border-radius: 10px;
+  border: 5px solid #ff900e;
+}
+.portfolio-images {
+  padding-left: 90px;
+  margin: 0 350px;
+  align-items: center;
+  display: flex;
+  gap: 80px;
+  ma
+}
 
 /* footer styles */
-footer{
+footer {
   padding: 30px 200px;
- margin: 0 350px;
- background: #FFF4E7;
- margin-bottom: 50px;
+  margin: 0 350px;
+  background: #fff4e7;
+  margin-bottom: 50px;
 }
-.footer-title{
+.footer-title {
   font-size: 20px;
-  font-weight:400;
+  font-weight: 400;
 }
+
